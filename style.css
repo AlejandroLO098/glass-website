@@ -46,7 +46,7 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
-@media (max-width: 53.5rem) {
+@media (max-width: 55.5rem) {
   .glass {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -57,7 +57,7 @@ main {
   }
 }
 
-@media (min-width: 70rem) {
+@media (min-width: 75rem) {
   .glass {
     /* display: block;
     width: 85vh; */
