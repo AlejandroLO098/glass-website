@@ -46,6 +46,23 @@ main {
   backdrop-filter: blur(2rem);
   display: flex;
 }
+@media (max-width: 50.5rem) {
+  .glass {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .games {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 63rem) {
+  .dashboard {
+    display: inline-block;
+  }
+}
+
 .circle1,
 .circle2 {
   background: white;
@@ -94,6 +111,8 @@ main {
 
 .games {
   flex: 2;
+  max-width: 100%;
+  height: auto;
 }
 
 .pro {
@@ -151,6 +170,8 @@ main {
   padding: 2rem;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
   justify-content: space-between;
+  max-width: 100%;
+  height: auto;
 }
 
 .progress {
